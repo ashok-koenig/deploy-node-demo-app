@@ -18,5 +18,14 @@ app.get('/users', (req, res)=>{
     res.json(users)
 })
 
+app.get('/products', (req, res)=>{
+    let products = [
+        {id: 1, title: "iPhone 16", price: 12312},
+        {id: 2, title: "iPhone 15", price: 1233},
+        {id: 3, title: "iPhone 14", price: 1231}
+    ]
+    res.json(products)
+})
+
 
 app.listen(port, ()=> console.log(`Server is running at http://localhost:${port}`))
