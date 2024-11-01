@@ -21,7 +21,7 @@ app.get('/users', (req, res)=>{
 app.get('/products', (req, res)=>{
     let products = [
         {id: 1, title: "iPhone 16", price: 23232},
-        {id: 2, title: "iPhone 15", price: 1233},
+        {id: 2, title: "iPhone 15", price: 3234},
         {id: 3, title: "iPhone 14", price: 1231},
         {id: 4, title: "iPhone 13", price: 1230}
     ]
